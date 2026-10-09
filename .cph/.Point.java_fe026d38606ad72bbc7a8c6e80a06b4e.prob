@@ -1,0 +1,1 @@
+{"name":"Local: Point","url":"/Users/ngochung/Desktop/codeptit/java/Point.java","tests":[{"id":1786984805337,"input":"2\n0 0 0 5\n0 199 5 6","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/ngochung/Desktop/codeptit/java/Point.java","group":"local","local":true}

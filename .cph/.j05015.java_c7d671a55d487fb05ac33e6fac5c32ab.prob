@@ -1,0 +1,1 @@
+{"name":"Local: j05015","url":"/Users/ngochung/Desktop/codeptit/java/j05015.java","tests":[{"id":1787241136774,"input":"3\nTran Vu Minh\nHa Noi\n8:30\nVu Ngoc Hoang\nHoa Binh\n8:20\nPham Dinh Tan\nAn Giang\n8:45","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/ngochung/Desktop/codeptit/java/j05015.java","group":"local","local":true}

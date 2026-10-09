@@ -1,0 +1,1 @@
+{"name":"Local: j04009","url":"/Users/ngochung/Desktop/codeptit/java/j04009.java","tests":[{"id":1787035128772,"input":"3\n0 0 0 5 0 199\n1 1 1 1 1 1\n0 0 0 5 5 0","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/ngochung/Desktop/codeptit/java/j04009.java","group":"local","local":true}
