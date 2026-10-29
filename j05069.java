@@ -4,7 +4,7 @@ class Club{
     String code;
     String name;
     int price;
-    public Club(String code, String name, Int price){
+    public Club(String code, String name, int price){
         this.code = code;
         this.name = name;
         this.price = price;
@@ -16,12 +16,12 @@ class Match{
     Long sum;
     Club club;
     String match_id;
-    Int quantity;
-    public Match(Club club, String match_id, Int quantity){
+    int quantity;
+    public Match(Club club, String match_id, int quantity){
         this.club = club;
         this.match_id = match_id;
         this.quantity = quantity;
-        this.sum = quantity * club.price;
+        this.sum = (long) quantity * club.price;
     }
 }
 
@@ -36,7 +36,7 @@ public class j05069{
             int price = Integer.parseInt(sc.nextLine());
         map.put(code, new Club(code,name,price));
         }
-        int m = Integer.pareseInt(sc.nextLine());
+        int m = Integer.parseInt(sc.nextLine());
         ArrayList<Match> arr = new ArrayList<>();
         for(int i =  1; i <= m; i++){
             String line = sc.nextLine().trim();
@@ -47,8 +47,8 @@ public class j05069{
             Club cl = map.get(club_id);
             arr.add(new Match(cl,code,quantity));
         }
-        for(Match m : arr){
-            System.out.printf("%s %s %d%n",m.match_id,m.club.name,m.sum);
+        for(Match match : arr){
+            System.out.printf("%s %s %d%n",match.match_id,match.club.name,match.sum);
         }
         sc.close();
     }
